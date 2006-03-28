@@ -29,9 +29,9 @@ Public Property Let Forename(ByRef vNewValue As String)
 
 End Property
 
-Public Property Get Age() As Integer
-
-End Property
+'Public Property Get Age() As Integer
+'
+'End Property
 
 Public Property Let Age(ByVal vNewValue As Integer)
 
