@@ -13,9 +13,9 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = True
 Option Explicit
 
-'Public Property Get Surname() As String
-'
-'End Property
+Public Property Get Surname() As String
+
+End Property
 
 Public Property Let Surname(ByVal vNewValue As String)
 
@@ -25,14 +25,14 @@ Public Property Get Forename() As String
 
 End Property
 
-'Public Property Let Forename(ByRef vNewValue As String)
-'
-'End Property
-
-'Public Property Get Age() As Integer
-'
-'End Property
-
-Public Property Let Age(ByVal vNewValue As Integer)
+Public Property Let Forename(ByRef vNewValue As String)
 
 End Property
+
+Public Property Get Age() As Integer
+
+End Property
+'
+'Public Property Let Age(ByVal vNewValue As Integer)
+'
+'End Property
