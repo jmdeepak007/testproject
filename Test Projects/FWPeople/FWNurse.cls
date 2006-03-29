@@ -37,6 +37,6 @@ Public Property Let Age(ByVal vNewValue As Integer)
 
 End Property
 
-Public Sub Load(ByVal lNurseID As Integer, ByRef sName As String)
+Public Sub Load(ByVal lNurseID As Long, ByRef sName As String)
 
 End Sub
