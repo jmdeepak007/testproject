@@ -1,6 +1,6 @@
 Type=Control
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\System32\stdole2.tlb#OLE Automation
-Reference=*\G{F69320C5-D78D-4527-833D-BD0BAF54508B}#1.0#0#..\ActiveX\FWPeople.dll#FWPeople
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\system32\STDOLE2.TLB#OLE Automation
+Reference=*\G{95DAAD96-3038-48E1-B9DC-6B6DC311300E}#1.0#0#..\ActiveX\FWPeople.dll#FWPeople
 UserControl=UserControl1.ctl
 Startup="(None)"
 HelpFile=""
@@ -15,7 +15,7 @@ CompatibleEXE32="..\ComReference\Project2.ocx"
 VersionCompatible32="1"
 MajorVer=1
 MinorVer=0
-RevisionVer=11
+RevisionVer=14
 AutoIncrementVer=1
 ServerSupportFiles=0
 VersionCompanyName="Footman-Walker Ltd"
