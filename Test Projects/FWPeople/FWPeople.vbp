@@ -1,5 +1,5 @@
 Type=OleDll
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\System32\stdole2.tlb#OLE Automation
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\system32\STDOLE2.TLB#OLE Automation
 Class=FWNurse; FWNurse.cls
 Startup="(None)"
 HelpFile=""
@@ -15,7 +15,7 @@ CompatibleEXE32="..\ComReference\FWPeople.dll"
 VersionCompatible32="1"
 MajorVer=1
 MinorVer=0
-RevisionVer=20
+RevisionVer=30
 AutoIncrementVer=1
 ServerSupportFiles=0
 VersionCompanyName="Footman-Walker Ltd"
