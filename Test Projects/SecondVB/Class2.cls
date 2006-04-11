@@ -6,37 +6,29 @@ BEGIN
   DataSourceBehavior  = 0  'vbNone
   MTSTransactionMode  = 0  'NotAnMTSObject
 END
-Attribute VB_Name = "FWNurse"
+Attribute VB_Name = "Class2"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = True
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = True
 Option Explicit
 
-'Public Property Get Surname() As String
-'
-'End Property
+Public Sub DoSomething()
+    MsgBox "Hello There Again coder?", vbInformation, App.ProductName
+    Dim o As FWNurse
+    Set o = New FWNurse
+    o.Surname = 0
+    o.Load 1, "Kamau Ninja"
+End Sub
 
-Public Property Let Surname(ByVal vNewValue As Long)
+Public Sub Test(ByVal sID As Long)
 
-End Property
-
-Public Property Get Forename() As Long
-
-End Property
-
-Public Property Let Forename(ByRef vNewValue As Long)
-
-End Property
+End Sub
 
 Public Property Get Age() As Long
 
 End Property
-'
+
 Public Property Let Age(ByVal vNewValue As Long)
 
 End Property
-
-Public Sub Load(ByVal lNurseID As Integer, ByRef sName As String)
-MsgBox sName & "  Test 2"
-End Sub

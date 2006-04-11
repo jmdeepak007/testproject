@@ -1,6 +1,6 @@
 Type=Exe
 Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\system32\STDOLE2.TLB#OLE Automation
-Object={FF0D47D4-1389-4EAF-86E5-E26F43928CA1}#1.0#0; Project2.ocx
+Object={FF0D47D4-1389-4EAF-86E5-E26F43928CA1}#1.0#0;Project2.ocx
 Form=Form1.frm
 Startup="Form1"
 HelpFile=""
@@ -30,8 +30,13 @@ UnroundedFP=0
 StartMode=0
 Unattended=0
 Retained=0
-ThreadPerObject=0
 MaxNumberOfThreads=1
 
+Title=""
+ThreadPerObject=0
+DllBaseAddress=&H11000000
+CondComp=""
+Description=""
+RemoveUnusedControlInfo=1
 [MS Transaction Server]
 AutoRefresh=1
