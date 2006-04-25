@@ -1,19 +1,20 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\system32\STDOLE2.TLB#OLE Automation
-Reference=*\G{FA373C33-F234-4251-8FD9-B9B3A8AF9B1E}#1.0#0#..\ActiveX\SecondVB.dll#SecondVB
-Object={976EE6C3-6DC7-4D8B-81FA-6E1836ABFE20}#1.0#0; ThirdVB.ocx
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINNT\system32\STDOLE2.TLB#OLE Automation
+Reference=*\G{B92695CC-3BFC-4B56-970E-AF694CE0C2E6}#1.0#0#..\TempActiveX\SecondVB.dll#SecondVB
+Object={9AD74D2A-2F02-404E-A951-87B50131BD90}#1.0#0; ForthVB.ocx
+Object={48BF5E1E-DCF2-42F6-BB7C-BF967C821B09}#1.0#0; ThirdVB.ocx
 Form=First.frm
 IconForm="frmFirst"
 Startup="frmFirst"
 ExeName32="FirstVB.exe"
-Path32="..\ActiveX"
+Path32="..\TempActiveX"
 Command32=""
 Name="FirstVB"
 HelpContextID="0"
 CompatibleMode="0"
 MajorVer=1
 MinorVer=0
-RevisionVer=20
+RevisionVer=35
 AutoIncrementVer=0
 ServerSupportFiles=0
 VersionCompanyName="Test Company"
@@ -34,6 +35,3 @@ Unattended=0
 Retained=0
 ThreadPerObject=0
 MaxNumberOfThreads=1
-
-[MS Transaction Server]
-AutoRefresh=1
