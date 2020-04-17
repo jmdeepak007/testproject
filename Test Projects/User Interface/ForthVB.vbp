@@ -1,7 +1,6 @@
 Type=Control
 Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\system32\STDOLE2.TLB#OLE Automation
 Reference=*\G{724DA472-FB63-46B7-8611-E886C0E27EBC}#1.0#0#..\ActiveX\SecondVB.dll#SecondVB
-Object={976EE6C3-6DC7-4D8B-81FA-6E1836ABFE20}#1.0#0; ThirdVB.ocx
 UserControl=ucForthVB.ctl
 Startup="(None)"
 HelpFile=""
